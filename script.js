@@ -19,7 +19,7 @@ form.addEventListener('submit', async function (event) {
             alert('Data saved successfully!');
             form.reset();
 
-            window.location.href = '/sign.html';
+            window.location.href = '/signin.html';
         }
         else {
             const errorData = await response.json();
